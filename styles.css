@@ -1,0 +1,28 @@
+#generador{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:'Rubik', sans-serif;   
+    max-width: 360px;
+    margin: 0 auto;
+}
+#generado{
+    text-align: center;
+}
+#generador input{
+    margin: 1em;
+}
+#generador button,#generado button{
+    background-color: #f13939;
+}
+.matrizGenerada{
+    margin: 1em;
+}
+#generador input,#generador button,#generado button,.matrizGenerada{
+    padding: 0.2em 0.5em;
+    border:.12em solid #242424;
+    box-shadow: -.15em .15em 0 0 #242424;
+    transition: all .2s;
+    font-size: 1.2em;
+    font-weight: bold;
+}

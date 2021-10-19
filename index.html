@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Matrix Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="generador">
+        <h1>Matrix Calculator</h1>
+        <p>Enter the dimensions of the matrix:</p>
+        <h2>Matrix 1:</h2>
+        <label>Rows:</label>
+        <input type="number" id="filas">
+        <label>Columns:</label>
+        <input type="number" id="columnas">
+        <h2>Matriz 2:</h2>
+        <label>Rows:</label>
+        <input type="number" id="filas2">
+        <label>Columns:</label>
+        <input type="number" id="columnas2">
+        <br>
+        <button type="button" onclick="crearMatriz()">Generate</button>
+    </section>
+    <section id="generado">
+
+        <div>
+            <h2>Matrix 1</h2>
+            <div class="matriz matrizGenerada">
+
+            </div>
+
+        </div>
+        <div >
+            <h2>Matrix 2</h2>
+            <div class="matriz matrizGenerada">
+
+            </div>
+
+        </div>
+        <button type="button" onclick="sumar()">Add</button>
+        <button type="button" onclick="restar()">Subtract</button>
+        <button type="button" onclick="multiplicar()">Multiply</button>
+        <div>
+            <h2>Result:</h2>
+            <div class="matriz matrizGenerada" id="resultado">
+
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
